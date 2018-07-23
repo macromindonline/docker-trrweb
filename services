@@ -1,5 +1,4 @@
 #!/bin/bash
 set -e
-/usr/local/bin/install_pos
 rm -f /var/run/apache2/apache2.pid
 exec apache2 -DFOREGROUND
