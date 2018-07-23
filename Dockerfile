@@ -8,6 +8,6 @@ RUN /usr/sbin/a2dissite '*' && /usr/sbin/a2ensite 000-docker
 COPY install_pos /usr/local/bin/
 COPY services /usr/local/bin/
 
-EXPOSE 80 631 901
+EXPOSE 80
 
 CMD ["services"]

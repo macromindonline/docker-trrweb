@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-/usr/sbin/cupsd -C /etc/cups/cupsd.conf -s /etc/cups/cups-files
 /usr/local/bin/install_pos
 rm -f /var/run/apache2/apache2.pid
 exec apache2 -DFOREGROUND
